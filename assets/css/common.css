@@ -1,0 +1,192 @@
+/* reset  */
+* {
+    font-family: "LeferiBase", sans-serif;
+    font-weight: 400;
+    color: #000;
+    box-sizing: border-box;
+}
+body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, table, tr, th, td, 
+form, fieldset, legend, input, label, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+body, h1, h2, h3, h4, h5, h6 {font-weight: 400;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ul, ol, li {list-style: none;}
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
+}
+img {
+    vertical-align: middle;
+    border: none;
+}
+table {border-collapse: collapse;}
+button {
+    border: 0;
+    outline: none;
+    font-family: inherit;
+    cursor: pointer;
+    background: none;
+}
+input {
+    border: 0;
+    outline: none;
+    font-family: inherit;
+    background: none;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    outline: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+select {
+    -webkit-appearance: none;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+blockquote, q {quotes: none;}
+blockquote:before, 
+blockquote:after,
+q:before, q:after {
+	content: "";
+	content: none;
+}
+
+/* font */
+@font-face {
+    font-family: "Akira";
+    src: url(../font/Akira_Ex.otf) format("opentype");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Kotra";
+    src: url(../font/Kotra_Bold.ttf) format("opentype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "LeferiBase";
+    src: url(../font/LeferiBase_Bold.ttf) format("truetype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "LeferiBase";
+    src: url(../font/LeferiBase_Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+/* text */
+.t-light {font-weight: 300 !important;}
+.t-regu {font-weight: 400 !important;}
+.t-medi {font-weight: 500 !important;}
+.t-bold {font-weight: 700 !important;}
+.t-left {text-align: left !important;}
+.t-center {text-align: center !important;}
+.t-right {text-align: right !important;}
+.t-ellip {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* color */
+.c-white {color: #FFF !important;}
+.c-black {color: #000 !important;}
+
+/* setting */
+html, body {
+    background: linear-gradient(#FFA237, #E95218);
+    background: -webkit-linear-gradient(rgb(255, 162, 55), #E95218);
+    overflow-x: hidden;
+}
+.hide {display: none !important;}
+.pd-0 {padding: 0 !important;}
+.pt-0 {padding-top: 0 !important;}
+.pb-0 {padding-bottom: 0 !important;}
+.pl-0 {padding-left: 0 !important;}
+.pr-0 {padding-right: 0 !important;}
+.mg-0 {margin: 0 !important;}
+.mt-0 {margin-top: 0 !important;}
+.mb-0 {margin-bottom: 0 !important;}
+.ml-0 {margin-left: 0 !important;}
+.mr-0 {margin-right: 0 !important;}
+.bd-0 {border: 0!important;}
+.bt-0 {border-top: 0!important;}
+.bb-0 {border-bottom: 0!important;}
+.bl-0 {border-left: 0!important;}
+.br-0 {border-right: 0!important;}
+
+/* box */
+.box-item {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.box-tb {
+    position: relative;
+    width: 100%;
+    padding: 128px 0;
+}
+.box-t {
+    position: relative;
+    width: 100%;
+    padding-top: 128px;
+}
+.box-b {
+    position: relative;
+    width: 100%;
+    padding-bottom: 128px;
+}
+
+/* footer */
+footer {width: 100%;}
+footer > nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 16px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 0;
+}
+footer .sns_box {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
+    column-gap: 52px;
+    margin-bottom: 8px;
+}
+footer .sns_box > li > a {
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 999px;
+    background: no-repeat center;
+    background-size: 100%;
+}
+footer .sns_box > li > a.twitter {background-image: url(../img/sns_twitter.png);}
+footer .sns_box > li > a.monogram {background-image: url(../img/sns_monogram.png);}
+footer .sns_box > li > a.telegram {background-image: url(../img/sns_telegram.png);}
+footer > nav > p {
+    font-size: 14px;
+    color: #FFF;
+}

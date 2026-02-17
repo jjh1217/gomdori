@@ -1,0 +1,306 @@
+/* title */
+.tit_box > h2 {
+    display: block;
+    font-family: "Akira";
+    font-size: 22px;
+    text-align: center;
+}
+.tit_box > p {
+    display: block;
+    padding-top: 12px;
+    font-size: 14px;
+    text-align: center;
+}
+.tit_box > p:nth-of-type(2) {display: none;}
+
+/* list */
+.list_item {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 80px 0;
+    margin-top: 80px;
+}
+.list_item > li {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+.list_item > li > img {
+    display: block;
+    height: 240px;
+    margin: 0 auto 24px;
+}
+.list_item > li > h3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-self: center;
+    width: 220px;
+    height: 68px;
+    border-radius: 12px;
+    background: linear-gradient(#FFF, #D5D5D5);
+    background: -webkit-linear-gradient(rgb(255, 255, 255), #D5D5D5);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.list_item > li > h3 > p {
+    font-size: 14px;
+    text-align: center;
+}
+.list_item.list_service > li > h3 {height: 88px;}
+
+/* logo */
+.logo_box {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.logo_box > img {
+    display: block;
+    width: 190px;
+}
+
+.video_box {
+    width: 100%;
+    max-height: 680px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* white paper */
+.wp_box {
+    background: url(../img/whitepaper_bg_m.png) no-repeat center 0;
+    background-size: 132%;
+}
+.wp_box > img {
+    display: block;
+    width: 68%;
+    max-width: 480px;
+    margin: 0 auto 32px;
+}
+.wp_box > p {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    padding-top: 32px;
+}
+.wp_box > p > a {
+    display: block;
+    padding: 16px 24px;
+    border-radius: 24px;
+    font-family: "Kotra";
+    font-size: 16px;
+    color: #FFF;
+    background-color: #FF5100;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* travel */
+.service_img {
+    position: relative;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto 68px;
+}
+.service_img > img:nth-of-type(1) {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 18%;
+    width: 40%;
+    z-index: 5;
+}
+.service_img > img:nth-of-type(2) {
+    display: block;
+    position: relative;
+    z-index: 10;
+    width: 56%;
+    margin: 0 auto;
+}
+.service_img > img:nth-of-type(3) {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 8%;
+    width: 42%;
+    z-index: 15;
+}
+.service_link {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 40px;
+    width: 80%;
+    max-width: 700px;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+.service_link > li { 
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+    width: 100%;
+}
+.service_link > li:nth-of-type(2) {max-width: 580px;}
+.service_link > li > a {
+    display: block;
+    width: 100%;
+}
+.service_link > li > a > img {
+    display: block;
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* nft */
+.nft_img {
+    padding: 60px 0;
+    background: url(../img/nft_bg.png) no-repeat center 0;
+    background-size: 120%;
+}
+.nft_img > img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.nft_list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+    padding-top: 60px;
+}
+.nft_list img {
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+}
+.nft_list h3 {
+    padding: 32px 0 12px;
+    font-family: "Akira";
+    font-size: 22px;
+    text-align: center;
+}
+.nft_list p {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* token */
+.token_box > h3 {
+    padding: 60px 0 16px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.token_box > h3:nth-of-type(2) {padding-bottom: 8px;}
+.token_box > p {
+    font-size: 14px;
+    text-align: center;
+}
+.token_box > p:last-of-type {display: none;}
+.token_list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 12px;
+    margin-bottom: 16px;
+}
+.token_list > li {
+    display: grid;
+    grid-template-columns: 1fr 36%;
+    padding: 24px 0;
+    border-radius: 16px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.token_list > li:nth-of-type(1) {background-color: #FFF;}
+.token_list > li:nth-of-type(2) {background-color: #F1F1F1;}
+.token_list > li:nth-of-type(3) {background-color: #DBDBDB;}
+.token_list > li:nth-of-type(4) {background-color: #C8C8C8;}
+.token_list > li:nth-of-type(5) {background-color: #C9C9C9;}
+.token_list > li:nth-of-type(6) {background-color: #B7B7B7;}
+.token_list > li:nth-of-type(7) {background-color: #878787;}
+.token_list > li:nth-of-type(8) {background-color: #6B6B6B;}
+.token_list > li > p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* member */
+.member_swiper {
+    width: 100%;
+    margin-top: 48px;
+}
+.member_swiper .swiper-slide {position: relative;}
+.member_swiper .swiper-slide > img {
+    display: block;
+    width: 100%;
+}
+.member_swiper .swiperItem {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 52% auto 1fr;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.member_swiper .swiperItem > span {display: block;}
+.member_swiper .swiperItem > h3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.member_swiper .swiperItem > h3 > b {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+}
+.member_swiper .swiperItem > h3 > small {
+    display: block;
+    font-size: 12px;
+}
+.member_swiper .swiperItem > h3 > small:nth-of-type(1) {margin-bottom: 0px;}
+.member_swiper .swiperItem > p {
+    align-self: center;
+    padding: 0 16px;
+    font-size: 14px;
+    text-align: center;
+}
+.member_swiper .swiperBtn {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    position: relative;
+    padding-top: 24px;
+}
+.member_swiper .swiperBtn > span {
+    display: block;
+    width: 48px;
+    height: 60px;
+    background: url(../img/member_right.png) no-repeat center;
+    background-size: 100%;
+}
+.member_swiper .swiperBtn > span:nth-of-type(2) {background-image: url(../img/member_left.png);}
+
+/* partners */
+.partners_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+    margin-top: 48px;
+}
+.partners_list > li {width: 50%;}
+.partners_list > li > img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.partners_list > li.big > img {width: 60%;}

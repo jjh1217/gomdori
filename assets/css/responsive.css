@@ -1,0 +1,221 @@
+@media(min-width: 360px) {
+    /* member */
+    .member_swiper .swiperItem {grid-template-rows: 52% auto 1fr;}
+    .member_swiper .swiperItem > h3 > b {font-size: 26px;}
+    .member_swiper .swiperItem > h3 > small {font-size: 14px;}
+    .member_swiper .swiperItem > h3 > small:nth-of-type(1) {padding: 2px 0;}
+    .member_swiper .swiperItem > p {font-size: 15px;}
+}
+@media(min-width: 768px) {
+    /* title */
+    .tit_box > h2 {font-size: 32px;}
+    .tit_box > p {
+        display: none;
+        padding-top: 14px;
+        font-size: 16px;
+    }
+    .tit_box > p:last-of-type {display: block;}
+
+    /* list */
+    .list_item {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 100px;
+    }
+
+    /* logo */
+    .logo_box > img {width: 280px;}
+
+    /* white paper */
+    .wp_box {
+        background-image: url(../img/whitepaper_bg_pc.png);
+        background-position-y: -12%;
+        background-size: 136%;
+    }
+    .wp_box > img {margin-bottom: 48px;}
+    .wp_box > p {padding-top: 48px;}
+    .wp_box > p > a {
+        padding: 20px 32px;
+        font-size: 18px;
+    }
+
+    /* service */
+    .service_link > li { 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0 24px;
+    }
+
+    /* nft */
+    .nft_img {
+        padding: 120px 0;
+        background-size: 800px;
+    }
+    .nft_img > img {width: 500px;}
+    .nft_list {
+        row-gap: 120px;
+        padding-top: 80px;
+    }
+    .nft_list img {width: 210px;}
+    .nft_list h3 {
+        padding: 40px 0 14px;
+        font-size: 26px;
+    }
+    .nft_list p {font-size: 16px;}
+
+    /* token */
+    .token_box > h3 {
+        padding: 80px 0 24px;
+        font-size: 24px;
+    }
+    .token_box > p {font-size: 16px;}
+    .token_box > p:nth-of-type(2) {display: none;}
+    .token_box > p:last-of-type {display: block;}
+    .token_list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+    .token_list > li {grid-template-columns: 1fr 32%;}
+    .token_list > li:nth-of-type(1) {order: 1;}
+    .token_list > li:nth-of-type(2) {order: 3;}
+    .token_list > li:nth-of-type(3) {order: 2;}
+    .token_list > li:nth-of-type(4) {order: 5;}
+    .token_list > li:nth-of-type(5) {order: 4;}
+    .token_list > li:nth-of-type(6) {order: 7;}
+    .token_list > li:nth-of-type(7) {order: 6;}
+    .token_list > li:nth-of-type(8) {order: 8;}
+    .token_list > li > p {font-size: 18px;}
+
+    /* member */
+    .member_swiper {margin-top: 68px;}
+    .member_swiper .swiperItem > h3 > b {font-size: 24px;}
+    .member_swiper .swiperBtn {
+        column-gap: 32px;
+        padding-top: 32px;
+    }
+    .member_swiper .swiperBtn > span {
+        width: 52px;
+        height: 64px;
+    }
+
+    /* partners */
+    .partners_list {
+        row-gap: 48px;
+        margin-top: 68px;
+    }
+    .partners_list > li {width: 33.33%;}
+    .partners_list > li.big > img {width: 50%;}
+
+}
+
+@media(min-width: 1024px) {
+    /* white paper */
+    .wp_box {background-size: 108%;}
+
+    /* member */
+    .member_swiper .swiperItem > h3 > b {font-size: 22px;}
+    .member_swiper .swiperItem > h3 > small {font-size: 12px;}
+}
+
+@media(min-width: 1280px) {
+    /* title */
+    .tit_box > h2 {font-size: 50px;}
+    .tit_box > p {
+        padding-top: 16px;
+        font-size: 20px;
+    }
+
+    /* list */
+    .list_item {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+    }
+    .list_item > li > img {
+        height: 220px;
+        margin: 0 auto 32px;
+    }
+    .list_item > li > h3 {
+        width: 260px;
+        height: 88px;
+    }
+    .list_item > li > h3 > p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .list_item.list_service > li > h3 {height: 112px;}
+
+    /* logo */
+    .logo_box > img {width: 400px;}
+
+    /* white paper */
+    .wp_box {
+        background-position-y: 0;
+        background-size: 100%;
+    }
+    .wp_box > p > a {
+        padding: 22px 48px;
+        font-size: 20px;
+    }
+    .wp_box > p > a:hover {box-shadow: none;}
+
+    /* service */
+    .service_link {
+        row-gap: 68px;
+        padding: 80px 0;
+    }
+    .service_link > li {column-gap: 32px;}
+    .service_link > li > a > img:hover {box-shadow: none;}
+
+    /* nft */
+    .nft_img {
+        padding: 160px 0;
+        background-size: 932px;
+    }
+    .nft_img > img {width: 600px;}
+    .nft_list {
+        row-gap: 180px;
+        padding-top: 100px;
+    }
+    .nft_list img {width: 260px;}
+    .nft_list h3 {
+        padding: 60px 0 16px;
+        font-size: 30px;
+    }
+    .nft_list p {font-size: 18px;}
+
+    /* token */
+    .token_box > h3 {
+        padding: 140px 0 32px;
+        font-size: 32px;
+    }
+    .token_box > h3:nth-of-type(2) {padding-bottom: 12px;}
+    .token_box > p {font-size: 18px;}
+    .token_list {
+        gap: 20px;
+        width: 900px;
+        margin: 0 auto 32px;
+    }
+    .token_list > li {
+        grid-template-columns: 1fr 36%;
+        padding: 26px 0;
+    }
+    .token_list > li > p {font-size: 20px;}
+
+    /* member */
+    .member_swiper .swiper-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 4px;
+        width: 1000px;
+        margin: 80px auto 0;
+    }
+    .member_swiper .swiperItem > h3 > b {font-size: 26px;}
+    .member_swiper .swiperItem > h3 > small {font-size: 14px;}
+    .member_swiper .swiperBtn {display: none;}
+
+    /* partners */
+    .partners_list {
+        row-gap: 68px;
+        margin-top: 80px;
+    }
+    .partners_list > li {width: 25%;}
+}
